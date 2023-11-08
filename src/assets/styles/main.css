@@ -1,0 +1,27 @@
+/* Define a custom class for squared radio buttons */
+.custom-radio {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  width: 20px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+  border: 2px solid #1285f7; /* Set the border color */
+  border-radius: 3px; /* Adjust the border radius as needed */
+  margin-right: 8px; /* Adjust spacing as needed */
+  cursor: pointer;
+}
+
+/* Define custom styles for checked radio buttons */
+.custom-radio:checked {
+  background-color: #1285f7;
+  /* Set the background color for checked state */
+}
+
+.focussed_item img {
+  fill: white;
+}
+
+body {
+  font-family: "Mitr", sans-serif;
+}
